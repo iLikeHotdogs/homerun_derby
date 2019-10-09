@@ -1,3 +1,7 @@
+html {
+    background-color: black;
+}
+
 h1 {
     color: red;
     text-align: center;
@@ -6,21 +10,30 @@ h1 {
 .hrlink {
     width: 1000px;
     height: 570px;
-    margin-top: -35px;
+    margin-top: -40px;
     margin-left: 400px;
     display: block;
     float: middle;
-    
+
 }
 
+.teamlink {
+    width: 1410px;
+    height: 1000px;
+    margin-top: -40px;
+    margin-left: 200px;
+    display: block;
+    float: middle;
+
+}
 
   
 header {
     position: fixed;
     width: 100%;
     z-index: 100;
-    border-bottom: solid 1px #c6c1c1;
     background-color: grey;
+   
   }
   
   header .content {
@@ -39,6 +52,7 @@ header {
   
   nav li {
     padding-left: 3.5rem;
+    list-style-type: none;
   }
   
   nav a {
@@ -48,8 +62,5 @@ header {
     color: #4a4a4a;
   }
   
-  header .icon {
-    width: 1rem;
-    padding-left: .75rem;
-  }
+  
   
