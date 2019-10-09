@@ -19,48 +19,64 @@ h1 {
 
 .teamlink {
     width: 1410px;
-    height: 1000px;
+    height: 925px;
     margin-top: -40px;
     margin-left: 200px;
     display: block;
     float: middle;
-
 }
 
+.actual_hrs {
+    width: 255px;
+    height: 925px;
+    margin-top: -40px;
+    margin-left: 800px;
+    display: block;
+    float: middle;
+}
   
 header {
     position: fixed;
     width: 100%;
     z-index: 100;
     background-color: grey;
-   
-  }
+    color: red;
+   }
   
-  header .content {
+header .content {
     display: flex;
     align-items: center;
     padding: 1.875rem;
-  }
+}
   
-  header .logo {
+header .logo {
     flex: 1;
-  }
+}
   
-  header nav ul {
+header nav ul {
     display: flex;
-  }
+}
   
-  nav li {
+nav li {
     padding-left: 3.5rem;
     list-style-type: none;
-  }
+}
   
-  nav a {
+nav a {
     vertical-align: bottom;
     line-height: 1.6;
     font-size: 1rem;
     color: #4a4a4a;
-  }
+}
   
-  
-  
+a {
+    color: white;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+    
+}
+
+
