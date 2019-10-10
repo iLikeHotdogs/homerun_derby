@@ -10,8 +10,8 @@ h1 {
 .hrlink {
     width: 1000px;
     height: 575px;
-    margin-top: 40px;
-    margin-left: 450px;
+    
+    margin: auto;
     display: block;
     float: middle;
 
@@ -19,9 +19,8 @@ h1 {
 
 .teamlink {
     width: 1410px;
-    height: 925px;
-    margin-top: 40px;
-    margin-left: 200px;
+    height: 750px;
+    margin: auto;
     display: block;
     float: middle;
 }
@@ -29,8 +28,7 @@ h1 {
 .actual_hrs {
     width: 255px;
     height: 925px;
-    margin-top: 40px;
-    margin-left: 800px;
+    margin: auto;
     display: block;
     float: middle;
 }
