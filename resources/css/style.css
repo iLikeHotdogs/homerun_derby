@@ -1,3 +1,5 @@
+/* Entire page effects */
+
 html {
     background-color: black;
 }
@@ -7,15 +9,78 @@ h1 {
     text-align: center;
 }
 
+
+/* Header */
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: grey;
+    color: red;
+   }
+  
+header .desktop {
+    display: flex;
+    align-items: center;
+    padding: 1.875rem;
+    
+}
+  
+header .desktop a{
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+}
+  
+header nav ul {
+    display: flex;
+}
+  
+header .mobile {
+    display: none;  /* this is used to turn off the mobile header while viewing the desktop version */
+}
+
+
+@media only screen and (max-width: 600px) {
+    header .desktop {
+      display: none;
+    }
+
+    header .mobile {
+        display: flex;
+        width: 100%;
+    }
+
+    header .mobile a{
+        flex: 1;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+/* Nav links */
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* Standings Page */
+
 .hrlink {
     width: 1000px;
     height: 575px;
     
     margin: auto;
-    display: block;
+    display: flex;
     float: middle;
 
 }
+
+/* Team page */
 
 .teamlink {
     width: 1410px;
@@ -25,6 +90,8 @@ h1 {
     float: middle;
 }
 
+/* MLB Actual HRs page */
+
 .actual_hrs {
     width: 255px;
     height: 925px;
@@ -33,6 +100,8 @@ h1 {
     float: middle;
 }
   
+
+/* Previous Derbies page */
 .previous {
     display: block;
     text-align: center;
@@ -44,37 +113,3 @@ a.previous:hover {
     text-decoration: none;
     
 }
-
-header {
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-    background-color: grey;
-    color: red;
-   }
-  
-header .content {
-    display: flex;
-    align-items: center;
-    padding: 1.875rem;
-}
-  
-header .logo {
-    flex: 1;
-}
-  
-header nav ul {
-    display: flex;
-}
-  
-
-a {
-    color: white;
-}
-
-a:hover {
-    color: black;
-    text-decoration: none;
-}
-
-
