@@ -2,6 +2,7 @@
 
 html {
     background-color: black;
+    font-family: "Roboto", sans-serif;
 }
 
 h1 {
@@ -16,7 +17,7 @@ header {
     width: 100%;
     z-index: 100;
     background-color: grey;
-    color: red;
+    
 }
   
 header .desktop {
@@ -40,6 +41,12 @@ header .mobile {
     display: none;  /* this is used to turn off the mobile header while viewing the desktop version */
 }
 
+.content {
+    position: relative;
+    top: 7rem;   /* to offset the fixed header*/
+}
+
+
 @media only screen and (max-width: 640px) {
     header .desktop {
       display: none;
@@ -54,6 +61,9 @@ header .mobile {
         flex: 1;
         text-align: center;
         font-weight: bold;
+    }
+    .content {
+        top: 2.5rem;
     }
 
     .hrlink, .teamlink, .actual_hrs{
@@ -81,7 +91,7 @@ a:hover {
     margin: auto;
     display: flex;
     float: middle;
-
+    
 }
 
 /* Team page */
@@ -112,10 +122,7 @@ a:hover {
     font-size: 20px;
 }
 
-a.previous:hover {
-    color: grey;
-    text-decoration: none;
-    
-}
+
+
 
 
