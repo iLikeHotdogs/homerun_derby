@@ -66,8 +66,9 @@ header .mobile {
         top: 2.5rem;
         font-size: 0.5rem;
     }
+    
     h1 {
-        text-align: center; 
+        display: fixed;
     }
 
     .hrlink, .teamlink, .actual_hrs{
