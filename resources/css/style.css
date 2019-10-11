@@ -68,7 +68,7 @@ header .mobile {
     }
 
     .hrlink, .teamlink, .actual_hrs{
-        max-width: 500px;  
+        max-width: auto;  
     }
 }
 
