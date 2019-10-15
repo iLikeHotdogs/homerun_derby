@@ -95,15 +95,15 @@ header .mobile {
     }
 
     .content {
-        top: 2.5rem;
-        font-size: 0.5rem;
+        top: 2rem;
+        font-size: 0.1rem;
         position: fixed;
     }
 
     .content h1 {
         text-align: center;
         font-size: 14px;
-        color: rgb(128, 0, 0);
+        color: blue;
         display: block;
     }
 
