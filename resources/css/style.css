@@ -72,6 +72,9 @@ header .mobile {
         position: fixed;
     }
 
+    h1 {
+        font-size: 20px;
+    }
     h1 .content {
         text-align: center;
     }
@@ -112,7 +115,7 @@ header .mobile {
 
     .hrlink, .teamlink, .actual_hrs{
         max-width: 700px;  
-        overflow: scroll;
+        /* overflow: scroll;  removed for testing */
     }
    
 }
