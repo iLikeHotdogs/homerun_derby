@@ -102,7 +102,6 @@ header .mobile {
         top: 2.5rem;
         font-size: 0.5rem;
         position: fixed;
-        overflow: scroll;
     }
 
     .content h1 {
@@ -113,7 +112,7 @@ header .mobile {
 
     .hrlink {
         max-width: 800px; 
-        max-height: 900px; 
+        max-height: auto; 
         overflow: scroll;
     }
 
