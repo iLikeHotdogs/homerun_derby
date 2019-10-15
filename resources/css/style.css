@@ -65,7 +65,7 @@ header .mobile {
     .content {
         top: 2.5rem;
         font-size: 0.5rem;
-        position: absolute;
+        position: fixed;
     }
 
     h1 .content {
@@ -75,9 +75,7 @@ header .mobile {
     .hrlink, .teamlink, .actual_hrs{
         max-width: 600px;  
     }
-    iframe {
-        width: 75%;
-    }
+   
 }
 
 /* Nav links */
