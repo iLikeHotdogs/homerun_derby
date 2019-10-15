@@ -111,12 +111,21 @@ header .mobile {
         color: green;
     }
 
-    .hrlink, .teamlink, .actual_hrs{
+    .hrlink {
+        max-width: 800px; 
+        max-height: 900px; 
+        overflow: scroll;
+    }
+
+    .teamlink {
         max-width: 800px;  
         overflow: scroll;
     }
 
     .actual_hrs {
+        width: 255px;
+        height: 925px;
+        margin: auto;
         display: block;
         float: middle;
     }
