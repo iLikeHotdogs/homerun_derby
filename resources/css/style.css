@@ -74,7 +74,7 @@ header .mobile {
         text-align: center;
     }
 
-    .standings, .teamlink, .actual_hrs{
+    .leaderboard, .teamlink, .actual_hrs{
         max-width: 400px;  
         overflow: scroll;
     }
@@ -110,7 +110,7 @@ header .mobile {
         color: blue;
     }
 
-    .standings {
+    .leaderboard {
         max-width: 800px; 
         max-height: 900px; 
         overflow: scroll;
@@ -142,9 +142,9 @@ a:hover {
     text-decoration: none;
 }
 
-/* Standings Page */
+/* Leaderboard Page */
 
-.standings {
+.leaderboard {
     width: 1000px;
     height: 575px;
     
