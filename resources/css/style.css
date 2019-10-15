@@ -72,10 +72,8 @@ header .mobile {
         text-align: center;
     }
 
- 
-
     .hrlink, .teamlink, .actual_hrs{
-        max-width: 500px;  
+        max-width: 600px;  
     }
 }
 
