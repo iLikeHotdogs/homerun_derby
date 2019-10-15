@@ -67,7 +67,7 @@ header .mobile {
     
     h1 .content {
         text-align: center;
-        color: purple;
+        
     }
 
     .leaderboard, .teamlink, .actual_hrs{
@@ -108,7 +108,7 @@ header .mobile {
     }
 
     .leaderboard {
-        max-width: 800px;
+        max-width: 100%;
         max-height: 1000px;
         overflow: scroll;
     }
