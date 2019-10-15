@@ -109,13 +109,14 @@ header .mobile {
 
     h1 .content {
         text-align: center;
+        font-size: 12px;
     }
 
    
     }
 
     .hrlink, .teamlink, .actual_hrs{
-        max-width: auto;  
+        max-width: 1000px;  
         /* overflow: scroll;  removed for testing */
     }
    
