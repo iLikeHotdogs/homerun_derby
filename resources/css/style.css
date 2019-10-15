@@ -103,12 +103,13 @@ header .mobile {
     .content h1 {
         text-align: center;
         font-size: 14px;
-        color: blue;
+        color: indigo;
+        display: block;
     }
 
     .leaderboard {
-        max-width: 10000em;
-        max-height: 1000em;
+        max-width: 800px;
+        max-height: 1000px;
         overflow: scroll;
     }
 
