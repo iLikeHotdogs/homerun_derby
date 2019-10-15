@@ -74,6 +74,7 @@ header .mobile {
 
     .hrlink, .teamlink, .actual_hrs{
         max-width: 400px;  
+        overflow: scroll;
     }
    
 }
