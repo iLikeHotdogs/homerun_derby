@@ -73,7 +73,10 @@ header .mobile {
     }
 
     .hrlink, .teamlink, .actual_hrs{
-        max-width: 640px;  
+        max-width: 600px;  
+    }
+    iframe {
+        width: 75%;
     }
 }
 
