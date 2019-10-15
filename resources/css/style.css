@@ -81,7 +81,8 @@ header .mobile {
    
 }
 
-@media only screen and (min-device-width : 375px) and (max-device-height : 812px) and (orientation : landscape) {
+@media only screen and (min-device-width : 375px) and (orientation : landscape) {
+
     header .desktop {
       display: none;
     }
