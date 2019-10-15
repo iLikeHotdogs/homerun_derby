@@ -5,10 +5,7 @@ html {
     font-family: "Roboto", sans-serif;
 }
 
-body {
-    margin-top: -25px;
-    padding: 0;
-}
+
 
 h1 {
     color: white;
@@ -57,9 +54,7 @@ header .mobile {
       display: none;
     }
 
-    body { 
-        margin-top: 0px;
-    }
+    
 
     header .mobile {
         display: flex;
