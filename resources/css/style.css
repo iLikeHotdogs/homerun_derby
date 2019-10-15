@@ -74,7 +74,7 @@ header .mobile {
         text-align: center;
     }
 
-    .hrlink, .teamlink, .actual_hrs{
+    .standings, .teamlink, .actual_hrs{
         max-width: 400px;  
         overflow: scroll;
     }
@@ -110,9 +110,9 @@ header .mobile {
         color: blue;
     }
 
-    .hrlink {
-        max-width: auto; 
-        max-height: auto; 
+    .standings {
+        max-width: 800px; 
+        max-height: 900px; 
         overflow: scroll;
     }
 
@@ -144,7 +144,7 @@ a:hover {
 
 /* Standings Page */
 
-.hrlink {
+.standings {
     width: 1000px;
     height: 575px;
     
