@@ -57,6 +57,9 @@ header .mobile {
       display: none;
     }
 
+    body { 
+        margin-top: 0;
+    }
     header .mobile {
         display: flex;
         width: 100%;
