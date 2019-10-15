@@ -65,15 +65,15 @@ header .mobile {
     .content {
         top: 2.5rem;
         font-size: 0.5rem;
-        position: relative;
+        position: absolute;
     }
-/*
-    h1 {
+
+    h1 .content {
         text-align: center;
     }
 
-    */
-    
+ 
+
     .hrlink, .teamlink, .actual_hrs{
         max-width: 500px;  
     }
