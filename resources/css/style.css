@@ -76,8 +76,8 @@ header .mobile {
     }
    
 }
-
-@media only screen and (max-width : 808px) and (orientation: landscape) {
+ /* for iPhone Xs */
+@media only screen and (min-width : 812px) and (orientation: landscape) {
 
     header .desktop {
         display: none;
