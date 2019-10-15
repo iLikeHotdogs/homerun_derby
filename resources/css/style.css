@@ -113,7 +113,7 @@ header .mobile {
 
     .hrlink, .teamlink, .actual_hrs{
         max-width: 600px;  
-        /* overflow: scroll;  removed for testing */
+        overflow: scroll;
     }
    
 }
