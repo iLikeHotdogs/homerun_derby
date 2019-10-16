@@ -98,6 +98,7 @@ header .mobile {
         top: 2rem;
         font-size: 0.1rem;
         position: fixed;
+        height: 20%;
     }
 
     .content h1 {
@@ -107,12 +108,12 @@ header .mobile {
         display: block;
     }
 
-    /*trying to figure out how to get the leaderboard to scroll in landscape.  just tried inline-block; try inline next*/
+    /*trying to figure out how to get the leaderboard to scroll in landscape.  just tried inline-block; try inline next
     .content .leaderboard {
         max-width: 800px;
         overflow: scroll;
         height: 20%;
-    }
+    }*/
 
     .teamlink {
         max-width: 800px;  
