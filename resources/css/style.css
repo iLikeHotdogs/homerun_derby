@@ -97,7 +97,7 @@ header .mobile {
     .content {
         top: 2rem;
         font-size: 0.1rem;
-        
+        /*position: fixed;*/
         
     }
 
