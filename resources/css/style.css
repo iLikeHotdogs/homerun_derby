@@ -78,6 +78,14 @@ header .mobile {
         max-width: 400px;  
         overflow: scroll;
     }
+
+    .actual_hrs_mobile {
+        display: flex;
+    }
+
+    .actual_hrs_desktop {
+        display: none;
+    }
 }
 
  /* for iPhone Xs */
@@ -170,6 +178,10 @@ a:hover {
 .actual_hrs {
     width: 255px;
     height: 700px;
+}
+
+.actual_hrs_mobile {
+    display: none;
 }
   
 /* Previous Derbies page */
