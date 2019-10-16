@@ -50,7 +50,7 @@ header .mobile {
     }
 
     header .mobile {
-        display: fixed;  /* was flex */
+        display: flex;  /* was flex */
         width: 100%;
         padding-top: 0.75em;
         padding-bottom: .75em;
@@ -90,7 +90,7 @@ header .mobile {
     }
 
     header .mobile {
-        display: fixed;  /* was flex */
+        display: flex;  /* was flex */
         width: 100%;
         padding-top: 0.75em;
         padding-bottom: .75em;
