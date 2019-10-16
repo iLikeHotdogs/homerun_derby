@@ -109,17 +109,16 @@ header .mobile {
     }
 
     
-    .leaderboard {
-        /*ax-width: 800px;*/
+    /*.leaderboard {
+        max-width: 800px;
         overflow: scroll;
         position: relative;
         /*top: 2rem;*/
-        margin: auto;
-        display: block;
+        margin: auto;*/
       
     }
 
-    .teamlink {
+    .leaderboard, .teamlink {
         max-width: 800px;  
         overflow: scroll;
         position: relative;
