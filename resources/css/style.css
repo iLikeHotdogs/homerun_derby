@@ -8,7 +8,7 @@ html {
 h1 {
     color: white;
     text-align: center;
-    font-size: 30px;
+    font-size: 2.0em;
 }
 
 /* Header */
@@ -52,7 +52,7 @@ header .mobile {
     header .mobile {
         display: flex;
         width: 100%;
-        padding: 1rem;
+        padding-top: 1rem;
     }
 
     header .mobile a{
@@ -62,7 +62,7 @@ header .mobile {
     }
 
     .content {
-        top: 2.5rem;
+        top: 3em;
         font-size: 0.5rem;
         position: fixed;
     }
@@ -88,7 +88,7 @@ header .mobile {
     header .mobile {
         display: flex;
         width: 100%;
-        padding: 1rem;
+        padding-top: 1rem;
     }
 
     header .mobile a{
@@ -98,7 +98,7 @@ header .mobile {
     }
 
     .content {
-        top: 2rem;
+        top: 3em;
         /*position: fixed;*/
         
     }
@@ -106,8 +106,9 @@ header .mobile {
     .content h1 {
         text-align: center; 
         font-size: 14px;
-        color: red;
+        color: blue;
         display: block;
+        padding-top: 1em;
         /*position: fixed;*/
     }
 
