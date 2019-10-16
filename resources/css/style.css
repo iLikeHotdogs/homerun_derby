@@ -121,7 +121,7 @@ header .mobile {
     .teamlink {
         max-width: 800px;  
         overflow: scroll;
-        position: fixed;
+        position: relative;
         top: 3rem;
     }
 
@@ -131,7 +131,7 @@ header .mobile {
         margin: auto;
         display: block;
         float: middle;
-        position: fixed;
+        position: relative;
         top: 3rem;
     }
    
