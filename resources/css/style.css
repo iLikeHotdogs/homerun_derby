@@ -97,14 +97,14 @@ header .mobile {
     .content {
         top: 2rem;
         font-size: 0.1rem;
-        position: fixed;
-        height: 20%;
+        
+        
     }
 
     .content h1 {
         text-align: center; 
         font-size: 14px;
-        color: red;
+        color: blue;
         display: block;
     }
 
