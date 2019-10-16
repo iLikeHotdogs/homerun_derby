@@ -111,6 +111,7 @@ header .mobile {
     .leaderboard {
         max-width: 800px;
         overflow: scroll;
+        height: 20%;
     }
 
     .teamlink {
