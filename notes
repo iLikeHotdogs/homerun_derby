@@ -8,3 +8,9 @@ Oct 9th 2019 Things that need to be fixed
     5. fix for mobile  PORTRAIT MODE LOOKS GOOD; NEED TO FIX LANDSCAPE MODE
         5a. Need to keep h1 in middle of screen at all times  DONE!
     6. figure out how to adjust the H1 header using code, and to remove the <br>   DONE!
+
+
+
+    mobile
+    1.  on Actul Homer page, figure out how to display the "mobile" h1 on mobile
+    2.  padding on h1 for all pages needs to be fixed too
