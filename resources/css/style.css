@@ -113,7 +113,8 @@ header .mobile {
         /*ax-width: 800px;*/
         overflow: scroll;
         position: relative;
-        top: 3rem;
+        /*top: 2rem;*/
+        margin: auto;
       
     }
 
@@ -121,7 +122,8 @@ header .mobile {
         max-width: 800px;  
         overflow: scroll;
         position: relative;
-        top: 3rem;
+         /*top: 2rem;*/
+         margin: auto;
     }
 
     .actual_hrs {
@@ -131,7 +133,8 @@ header .mobile {
         display: block;
         float: middle;
         position: relative;
-        top: 3rem;
+         /*top: 2rem;*/
+         margin: auto;
     }
    
 }
