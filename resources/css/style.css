@@ -113,12 +113,13 @@ header .mobile {
         max-width: 800px;
         overflow: scroll;
         height: 20%;
-        position: fixed;
+        position: static;
     }
 
     .teamlink {
         max-width: 800px;  
         overflow: scroll;
+        position: fixed;
     }
 
     .actual_hrs {
@@ -127,6 +128,7 @@ header .mobile {
         margin: auto;
         display: block;
         float: middle;
+        position: fixed;
     }
    
 }
