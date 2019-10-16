@@ -52,7 +52,8 @@ header .mobile {
     header .mobile {
         display: flex;
         width: 100%;
-        padding: 0.75em 0 .75em 0;
+        padding-top: 0.75em;
+        padding-bottom: .75em;
     }
 
     header .mobile a{
@@ -62,14 +63,14 @@ header .mobile {
     }
 
     .content {
-        top: 4em;
+        top: 40em;
         font-size: 0.5rem;
         position: fixed;
     }
     
     h1 .content {
         text-align: center;
-        font-size: 16px;
+        /*font-size: 16px;*/
     }
 
     .leaderboard, .teamlink, .actual_hrs{
@@ -88,7 +89,8 @@ header .mobile {
     header .mobile {
         display: flex;
         width: 100%;
-        padding: 0.75em 0 .75em 0;
+        padding-top: 0.75em;
+        padding-bottom: .75em;
     }
 
     header .mobile a{
@@ -98,7 +100,7 @@ header .mobile {
     }
 
     .content {
-        top: 3em;
+        top: 2.5em;
         /*position: fixed;*/
         
     }
@@ -106,7 +108,7 @@ header .mobile {
     .content h1 {
         text-align: center; 
         font-size: 14px;
-        color: orange;
+        color: blue;
         display: block;
         padding-top: 1em;
         /*position: fixed;*/
