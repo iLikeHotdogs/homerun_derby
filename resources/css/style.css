@@ -50,7 +50,7 @@ header .mobile {
     }
 
     header .mobile {
-        display: flex;  /* was flex */
+        display: flex;  
         width: 100%;
         padding-top: 0.75em;
         padding-bottom: .75em;
@@ -72,15 +72,14 @@ header .mobile {
     
     h1 .content {
         text-align: center;
-        /*font-size: 16px;*/
     }
 
     .leaderboard, .teamlink, .actual_hrs{
         max-width: 400px;  
         overflow: scroll;
     }
-   
 }
+
  /* for iPhone Xs */
 @media only screen and (max-width : 818px) and (orientation: landscape) {
 
@@ -89,7 +88,7 @@ header .mobile {
     }
 
     header .mobile {
-        display: flex;  /* was flex */
+        display: flex;  
         width: 100%;
         padding-top: 0.75em;
         padding-bottom: .75em;
@@ -104,33 +103,21 @@ header .mobile {
     }
 
     .content {
-        top: 2.5em;
-        /*position: fixed;*/
-        
+        top: 2em;
     }
 
     .content h1 {
         text-align: center; 
-        font-size: 14px;
-        color: greenyellow;
+        font-size: 16px;
+        color: white;
         display: block;
         padding-top: 1em;
-        /*position: fixed;*/
     }
-
-    /*.leaderboard {
-        max-width: 800px;
-        overflow: scroll;
-        position: relative;
-        /*top: 2rem;
-        margin: auto;
-    }*/
 
     .leaderboard, .teamlink {
         max-width: 800px;  
         overflow: scroll;
         position: relative;
-         /*top: 2rem;*/
          margin: auto;
     }
 
@@ -141,14 +128,11 @@ header .mobile {
         display: block;
         float: middle;
         position: relative;
-         /*top: 2rem;*/
          margin: auto;
     }
-   
 }
 
 /* Nav links */
-
 a {
     color: white;
 }
