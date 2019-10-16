@@ -108,15 +108,13 @@ header .mobile {
         /*position: fixed;*/
     }
 
-    
     /*.leaderboard {
         max-width: 800px;
         overflow: scroll;
         position: relative;
-        /*top: 2rem;*/
-        margin: auto;*/
-      
-    }
+        /*top: 2rem;
+        margin: auto;
+    }*/
 
     .leaderboard, .teamlink {
         max-width: 800px;  
