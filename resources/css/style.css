@@ -104,16 +104,17 @@ header .mobile {
     .content h1 {
         text-align: center; 
         font-size: 14px;
-        color: blue;
+        color: orange;
         display: block;
     }
 
     /*trying to figure out how to get the leaderboard to scroll in landscape.  just tried inline-block; try inline next}*/
     .leaderboard {
-        max-width: 800px;
+        /*ax-width: 800px;
         overflow: scroll;
-        height: 20%;
-        position: static;
+        height: 20%;*/
+        position: relative;
+        left: 20px;
     }
 
     .teamlink {
