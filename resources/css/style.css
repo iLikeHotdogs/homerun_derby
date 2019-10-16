@@ -108,7 +108,7 @@ header .mobile {
     }
 
     /*trying to figure out how to get the leaderboard to scroll in landscape.  just tried inline-block; try inline next*/
-    .leaderboard {
+    .content .leaderboard {
         max-width: 800px;
         overflow: scroll;
         height: 20%;
