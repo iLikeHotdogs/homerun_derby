@@ -92,7 +92,7 @@ header .mobile {
         margin: auto;
     }
     .actual_hrs {
-        width: 255px;
+        width: 100%;
         height: 925px;
         margin: auto;
         display: block;
@@ -157,7 +157,7 @@ header .mobile {
     }
 
     .actual_hrs {
-        width: 255px;
+        width: 100%;
         height: 925px;
         margin: auto;
         display: block;
