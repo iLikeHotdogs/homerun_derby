@@ -135,6 +135,11 @@ header .mobile {
 
     .content .actual_hrs_mobile {
         display: inline;
+        text-align: center; 
+        font-size: 16px;
+        color: white;
+        padding-top: 0.5em;
+        
     }
 
     .actual_hrs {
