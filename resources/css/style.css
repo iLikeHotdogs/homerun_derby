@@ -84,12 +84,21 @@ header .mobile {
     }
 
     .content .actual_hrs_mobile {
-        display: block;  /*look into this.  */
+        display: inline;
         text-align: center; 
         font-size: 16px;
         color: white;
-        padding-top: 0.5em;
+        padding-top: 1em;
+        margin: auto;
+    }
+    .actual_hrs {
+        width: 255px;
+        height: 925px;
+        margin: auto;
+        display: block;
         float: middle;
+        position: relative;
+        margin: auto;
     }
 }
 
