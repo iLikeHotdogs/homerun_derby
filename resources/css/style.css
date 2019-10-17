@@ -85,6 +85,10 @@ header .mobile {
 
     .content .actual_hrs_mobile {
         display: inline;
+        text-align: center; 
+        font-size: 16px;
+        color: white;
+        padding-top: 0.5em;
     }
 }
 
@@ -119,7 +123,7 @@ header .mobile {
         font-size: 16px;
         color: white;
         display: block;
-        padding-top: 0.5em;
+        padding-top: 1em;
     }
 
     .leaderboard, .teamlink {
