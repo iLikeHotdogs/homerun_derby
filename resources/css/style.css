@@ -79,12 +79,12 @@ header .mobile {
         overflow: scroll;
     }
 
-    .actual_hrs_mobile {
-        display: flex;
+    .actual_hrs_desktop {  
+        display: none;
     }
 
-    .actual_hrs_desktop {
-        display: none;
+    .content .actual_hrs_mobile {
+        display: inline;
     }
 }
 
@@ -126,7 +126,15 @@ header .mobile {
         max-width: 800px;  
         overflow: scroll;
         position: relative;
-         margin: auto;
+        margin: auto;
+    }
+
+    .actual_hrs_desktop {  
+        display: none;
+    }
+
+    .content .actual_hrs_mobile {
+        display: inline;
     }
 
     .actual_hrs {
@@ -136,7 +144,7 @@ header .mobile {
         display: block;
         float: middle;
         position: relative;
-         margin: auto;
+        margin: auto;
     }
 }
 
