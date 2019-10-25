@@ -1,16 +1,16 @@
 Oct 9th 2019 Things that need to be fixed
     1. top bar
-        1a. overlay when scrolled over needs to be fixed
-        1b. keep in place in mobile?  or let it scroll?
+        1a. overlay when scrolled over needs to be fixed  DONE!
+        1b. keep in place in mobile?  or let it scroll?  Kept in place DONE!
     2. add in sign up sheet
     3. add in previous years DONE!
     4. touch up the color
-    5. fix for mobile  PORTRAIT MODE LOOKS GOOD; NEED TO FIX LANDSCAPE MODE
+    5. fix for mobile  PORTRAIT MODE LOOKS GOOD; NEED TO FIX LANDSCAPE MODE - DONE!!
         5a. Need to keep h1 in middle of screen at all times  DONE!
     6. figure out how to adjust the H1 header using code, and to remove the <br>   DONE!
 
 
 
     mobile
-    1.  on Actul Homer page, figure out how to display the "mobile" h1 on mobile
-    2.  padding on h1 for all pages needs to be fixed too
+    1.  on Actul Homer page, figure out how to display the "mobile" h1 on mobile   DONE!!
+    2.  padding on h1 for all pages needs to be fixed too   DONE!!
