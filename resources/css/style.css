@@ -44,6 +44,9 @@ header .mobile {
     top: 7rem;   /* to offset the fixed header*/
 }
 
+
+/* MOBILE*/
+
 @media only screen and (max-width: 640px) {
     header .desktop {
       display: none;
@@ -65,7 +68,7 @@ header .mobile {
     }
 
     .content {
-        top: 10em;
+        top: 7em;
         font-size: 0.5rem;
     }
     
@@ -139,7 +142,7 @@ header .mobile {
         max-width: 800px;  
         overflow: scroll;
         position: relative;
-        margin: auto;  /*was 1em auto auto auto*/
+        margin:  auto;  /*was 1em auto auto auto*/
     }
 
     .content .actual_hrs_desktop {  
