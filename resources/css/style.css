@@ -139,7 +139,7 @@ header .mobile {
         max-width: 800px;  
         overflow: scroll;
         position: relative;
-        margin: 1em auto auto auto;  /*was just auto*/
+        margin: auto;  /*was 1em auto auto auto*/
     }
 
     .content .actual_hrs_desktop {  
