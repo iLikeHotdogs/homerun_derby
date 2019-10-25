@@ -112,7 +112,7 @@ header .mobile {
         display: flex;  
         width: 100%;
         padding-top: 0.75em;
-        padding-bottom: .75em;
+        padding-bottom: 0.75em;
         z-index: 100;
         border-bottom: solid 1px #c6c1c1;
     }
@@ -132,7 +132,7 @@ header .mobile {
         font-size: 16px;
         color: white;
         display: block;
-        padding-top: 1em;
+        /*padding-top: 1em;*/
     }
 
     .leaderboard, .teamlink {
@@ -148,7 +148,6 @@ header .mobile {
 
     .content .actual_hrs_mobile {
         display: block;
-     
         margin: auto;
     }
 
