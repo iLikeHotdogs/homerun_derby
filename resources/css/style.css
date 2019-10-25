@@ -124,7 +124,7 @@ header .mobile {
     }
 
     .content {
-        top: 10em;  /*was 2em*/
+        top: 5em;  /*was 2em*/
     }
 
     .content h1 {
