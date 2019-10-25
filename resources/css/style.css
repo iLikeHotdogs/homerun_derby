@@ -132,14 +132,14 @@ header .mobile {
         font-size: 16px;
         color: white;
         display: block;
-        /*padding-top: 1em;*/
+        padding-top: 1em;
     }
 
     .leaderboard, .teamlink {
         max-width: 800px;  
         overflow: scroll;
         position: relative;
-        margin: auto;
+        margin: 1em auto auto auto;  /*was just auto*/
     }
 
     .content .actual_hrs_desktop {  
